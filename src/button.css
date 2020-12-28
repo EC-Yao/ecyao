@@ -1,0 +1,150 @@
+  .buttons {
+    display: flex;
+    flex-direction: column;
+        flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  /*   padding: 2em 0em; */
+  }
+  
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: left;
+    color: #444;
+    letter-spacing: 0.05em;
+    margin: 0 0 0.4em;
+    font-size: 1em;
+  }
+
+  .btn {
+    padding: 0 200px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    width: 50%;
+    min-height:300px;
+    max-height:300px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  /*btn_background*/
+  .effect04 {
+    --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+    display: var(--uismLinkDisplay);
+    color: #000;
+    outline: solid  2px #000;
+    position: relative;
+    transition-duration: 0.4s;
+    overflow: hidden;
+  }
+  
+  .effect2 {
+    --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+    display: var(--uismLinkDisplay);
+    color: #fff;
+    outline: solid  2px #fff;
+    position: relative;
+    transition-duration: 0.4s;
+    overflow: hidden;
+  }
+
+  .effect04::before,
+  .effect04 span{
+      margin: 0 auto;
+      transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+      transition-duration: 0.4s;
+  }
+
+  .effect2::before,
+  .effect2 span{
+      margin: 0 auto;
+      transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+      transition-duration: 0.4s;
+  }
+  
+  /* 文字1を上に */
+  .effect04:hover{
+    background-color: #000;
+  }
+  
+  .effect2:hover{
+    background-color: #fff;
+  }
+
+
+  /* HOVERしたら文字1を上に */
+  .effect04:hover span{
+    -webkit-transform: translateY(-10000%) scale(-0.1,20);
+            transform: translateY(-10000%) scale(-0.1,20);
+    
+  }
+
+  .effect02:hover span{
+    -webkit-transform: translateY(-10000%) scale(-0.1,20);
+            transform: translateY(-10000%) scale(-0.1,20);
+  }
+  
+  /*文字2*/
+  .effect04::before{
+    content: attr(data-sm-link-text);
+      color: #FFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: translateY(10000%) scale(-0.1,20);
+            transform: translateY(10000%) scale(-0.1,20);
+  }
+
+  .effect2::before{
+    content: attr(data-sm-link-text);
+      color: #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: translateY(10000%) scale(-0.1,20);
+            transform: translateY(10000%) scale(-0.1,20);
+  }
+  
+  
+  /* HOVERしたら文字2を上に */
+  .effect04:hover::before{
+    padding: 13% 0;
+    font-size: 30px;
+    letter-spacing: 0.25em;
+    -webkit-transform: translateY(0) scale(1,1);
+            transform: translateY(0) scale(1,1);
+  }
+  
+  /* HOVERしたら文字2を上に */
+  .effect2:hover::before{
+    padding: 10% 0;
+    font-size: 30px;
+    letter-spacing: 0.25em;
+    -webkit-transform: translateY(0) scale(1,1);
+            transform: translateY(0) scale(1,1);
+  }
+
+  .container span {
+    padding: 120px 0;
+    font-size: 30px;
+  }
