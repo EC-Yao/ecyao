@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ecyao/static/css/main.0a95c7e9.chunk.css",
-    "main.js": "/ecyao/static/js/main.025364a0.chunk.js",
-    "main.js.map": "/ecyao/static/js/main.025364a0.chunk.js.map",
+    "main.js": "/ecyao/static/js/main.04b34c72.chunk.js",
+    "main.js.map": "/ecyao/static/js/main.04b34c72.chunk.js.map",
     "runtime-main.js": "/ecyao/static/js/runtime-main.a4819d28.js",
     "runtime-main.js.map": "/ecyao/static/js/runtime-main.a4819d28.js.map",
     "static/js/2.12f3cd3d.chunk.js": "/ecyao/static/js/2.12f3cd3d.chunk.js",
@@ -12,13 +12,13 @@
     "index.html": "/ecyao/index.html",
     "static/css/main.0a95c7e9.chunk.css.map": "/ecyao/static/css/main.0a95c7e9.chunk.css.map",
     "static/js/2.12f3cd3d.chunk.js.LICENSE.txt": "/ecyao/static/js/2.12f3cd3d.chunk.js.LICENSE.txt",
-    "static/media/ECYao.67df841e.pdf": "/ecyao/static/media/ECYao.67df841e.pdf",
+    "static/media/ECYao.3a83121d.pdf": "/ecyao/static/media/ECYao.3a83121d.pdf",
     "static/media/App.css": "/ecyao/static/media/wallpaper_gradient.8b3e455a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4819d28.js",
     "static/js/2.12f3cd3d.chunk.js",
     "static/css/main.0a95c7e9.chunk.css",
-    "static/js/main.025364a0.chunk.js"
+    "static/js/main.04b34c72.chunk.js"
   ]
 }
